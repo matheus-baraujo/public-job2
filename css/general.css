@@ -1,0 +1,656 @@
+
+/* ================= Geral ================= */
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    font-size: 1rem;
+}
+
+.datepicker{
+    color: #BE3591;
+}
+
+.tituloSessao{
+    border-left: solid 5px #BE3591; 
+    padding-left: 2%; 
+    margin-bottom: 2%;
+    color: #BE3591;
+    font-size: 3rem !important;
+}
+
+.sessao{
+    padding: 5% 15%;
+    position: relative;
+}
+
+.sessao2{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.subtitulo{
+    font-size: 2rem !important;
+    margin-bottom: 3%;
+}
+
+.subtitulo2{
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+
+.subtitulo3{
+    font-size: 2rem !important;
+    margin-bottom: 3%;
+    color: #BE3591;
+}
+
+.subtitulo4{
+    font-size: 2.5rem !important;
+    margin-bottom: 5%;
+    color: #BE3591;
+}
+
+.subtitulo5{
+    font-size: 2rem !important;
+    margin-bottom: 3%;
+    color: #BE3591;
+}
+
+.textoDestaque{
+    font-size: 1rem;
+}
+
+.linkContato2{
+    color: black;
+    text-decoration: none;
+}
+
+.linkContato2:hover{
+    color: #676767;
+}
+
+/* ================= Menu ================= */
+
+.navbar-brand img{
+    width: 6rem;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+}
+
+.bars{
+    color: #BE3591;
+    font-size: 1.5rem;
+}
+
+.nav-link{
+    color: #BE3591 !important;
+}
+
+.nav-link:hover{
+    color: #F0C4DC !important;
+    text-decoration: none;
+}
+
+.dropdown-menu{
+    border: none;
+    border-radius: 10px;
+}
+
+.dropdown-item{
+    font-size: 1.2rem;
+}
+
+.dropdown-item:hover{
+    color: #F0C4DC;
+    background-color: none;
+}
+
+.imgApp{
+    width: 6rem; 
+}
+
+/* ================= home ================= */
+
+.slide{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    min-height: 35vw;
+}
+
+.titleSlide1{
+    font-size: 4vw !important; 
+    margin-bottom: 2%;
+    padding: 1%; 
+    padding-left: 4%; 
+    font-weight: 700; 
+    mix-blend-mode: screen;
+}
+
+.titleSlide1::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: -1%;
+    top: 0;
+    height: 6.5vw;
+    width: 120%;
+    background-color: white;
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    transform: skewX(20deg);
+}
+
+.subtitleSlide1{
+    text-align: center; 
+    font-size: 1.5vw !important; 
+    width: 55%; 
+    margin-left: 8%; 
+    color: white;
+}
+
+.titleSlide2{
+    font-size: 4vw !important;
+    margin-bottom: 1%; 
+    background-color: white; 
+    mix-blend-mode: screen; 
+    width: max-content; 
+    margin-left: 100%; 
+    float: right; 
+    padding: 0% 3%;
+}
+
+.titleSlide3{
+    font-size: 4vw !important;
+    margin-bottom: 4%;  
+    padding-right: 20vw; 
+    mix-blend-mode: screen;
+}
+
+.titleSlide3::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: -30%;
+    top: 0;
+    height: 6vw;
+    width: 120%;
+    background-color: white;
+    -webkit-transform: skewX(70deg);
+    -moz-transform: skewX(70deg);
+    -ms-transform: skewX(70deg);
+    transform: skewX(70deg);
+}
+
+.subtitleSlide3{
+    font-size: 3vw !important; 
+    margin-bottom: 0%; 
+    color: white;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    width: 5% !important;
+    filter: invert(100%) !important;
+}
+
+
+.link-solution{
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    position: absolute; 
+    bottom: 5%; 
+    right: 5%;
+}
+
+.link-solution:hover{
+    color: #F0C4DC;
+}
+
+.textSolutions{
+    font-size: 1.2rem;
+    color: #BE3591;
+}
+
+#home1, #app1{
+    background-image: url(../resources/fundo1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 5% 0%;
+}
+
+#home2{
+    margin: 5% 0% 0% 0%;
+}
+
+#home3{
+    margin: 0%;
+}
+
+.linkSolutions2{
+    position: absolute; 
+    right: 0%; 
+    bottom: 0%;
+    color: #BE3591;
+    text-decoration: none;
+}
+
+.linkSolutions2:hover{
+    color: #F0C4DC;
+}
+
+
+.linkSaiba{
+    color: #BE3591;
+    text-decoration: none;
+}
+
+.linkSaiba:hover{
+    color: #F0C4DC;
+}
+
+.imgApp1{
+    margin-left: 20%; 
+    width: 20vw;
+}
+
+.imgApp2{
+    width: 15vw; 
+    position: absolute; 
+    top: 30%; 
+    right: 25%;
+}
+
+.imgApp3{
+    position: absolute; 
+    right: 25%; 
+    top:20%; 
+    width: 20%; 
+    z-index: -1;
+}
+
+.appIcon{
+    float: right; 
+    width: 60%;
+}
+
+/* ================= Contato ================= */
+
+.fundoContato{
+    width: 100%; 
+    position: absolute; 
+    z-index: -1;
+    bottom: 0%; 
+    left: 0%;
+}
+
+.tituloContato{
+    font-size: 3.5rem;
+}
+
+.linkContato{
+    font-size: 4rem;
+    color: darkgray;
+}
+
+.linkContato:hover{
+    color: black;
+}
+
+.input1{
+    color: #BE3591 !important;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.input1::placeholder{
+    color: #BE3591 !important;
+}
+
+.input2{
+    color: #BE3591 !important;
+    border-radius: 20px;
+    width: 70%;
+}
+
+.input3{
+    color: #BE3591 !important;
+    border-radius: 20px;
+}
+
+.input2::placeholder{
+    color: #BE3591 !important;
+}
+
+.inputSend{
+    color: white;
+    background-color: #BE3591;
+    border: none;
+    border-radius: 100px;
+    padding: 1%;
+}
+
+.inputSend:hover{
+    color: white;
+    background-color: #F0C4DC;
+}
+
+.msgResult{
+    color: white;
+    border-radius: 100px; 
+    border: 1px solid black; 
+    background-color: #BE3591; 
+    padding: 1%; 
+    width: fit-content;
+}
+
+/* ================= Para voce e negocios ================= */
+
+.imgAlvo{
+    width: 50%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+/* ================= Valores ================= */
+
+.imgValores{
+    width: 15%;
+}
+
+/* ================= Blog ================= */
+
+.imgPostPrincipal{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+    height: 35vw; 
+    margin-left: 1%;
+}
+
+.infoPostPrincipal{
+    position: absolute; 
+    bottom: 0%; 
+    left: 0%; 
+    width: 100%; 
+    background-color: #D983B9; 
+    padding: 2% 5%;
+}
+
+.textoPostPrincipal{
+    margin-bottom: 1%; 
+    color: white;
+}
+
+.tituloPostPrincipal{
+    font-size: 4rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.imgPostSecundario{
+    width: 100%; 
+    height: 20vw;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    margin-bottom: 1%;
+}
+
+.temaPostSecundario{
+    margin-bottom: 1%; 
+    color: #BE3591;
+}
+
+.tituloPostSecundario{
+    margin-bottom: 1%; 
+    font-size: 2.25rem; 
+    color: black;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.linkReturn{
+    margin-left: 5%;
+    font-size: 2rem;
+    color: #676767;
+    text-decoration: none;
+}
+
+.linkReturn:hover{
+    color: black;
+}
+
+.imgArtigo{
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    position: relative; 
+    height: 45vw; 
+}
+
+.textoArtigo{
+    font-size: 1rem !important;
+    padding: 5%;
+    white-space: pre-wrap;
+}
+
+/* ================= Admin ================= */
+
+#loginAdmin{
+    padding-top: 10%;
+}
+
+.tableAdmin{
+    padding: 1%;
+    border-radius: 10px;
+    border: 1px solid #676767;
+}
+
+.btn-edit-delete{
+    color: #BE3591;
+}
+
+.btn-edit-delete:hover{
+    color: #D983B9
+}
+
+
+
+/* ================= ====== ================= */
+/* ================= Mobile ================= */
+/* ================= ====== ================= */
+
+@media screen and (max-width: 600px) {
+
+    /* ================= Geral ================= */
+
+    p, a, .inputSend{
+        font-size: 0.6rem !important;
+    }
+
+    .tituloSessao{
+        font-size: 1.25rem !important;
+        border-left: 2px solid #BE3591;
+    }
+
+    .subtitulo{
+        font-size: 0.8rem !important;
+    }
+
+    .subtitulo2{
+        text-align: center;
+        font-size: 0.8rem !important;
+    }
+
+    .subtitulo3{
+        font-size: 1rem !important;
+        margin-bottom: 3%;
+    }
+
+    .subtitulo4{
+        font-size: 1rem !important;
+        margin-bottom: 5%;
+    }
+
+    .subtitulo5{
+        font-size: 0.8rem !important;
+        margin-bottom: 3%;
+    }
+
+    .textoDestaque{
+        font-size: 0.8rem !important;
+    }
+
+    /* ================= Menu ================= */
+
+    .navbar-brand img{
+        width: 3rem !important;
+    }
+
+    .imgApp{
+        margin-left: 1rem !important;
+        width: 4rem !important;
+    }
+
+    /* ================= home ================= */
+
+    .titleSlide1::before{
+        z-index: -0.8;
+        left: -2%;
+    }
+
+    .subtitleSlide1{
+        width: 80% !important;
+        font-size: 2vw !important; 
+    }
+
+    .textSolutions{
+        margin-top: 5%;
+    }
+
+    .imgApp1{
+        margin-left: 5%; 
+        width: 35vw;
+    }
+    
+    .imgApp2{
+        width: 25vw; 
+        right: 5%;
+    }
+
+    .imgApp3{
+        width: 25% !important;
+        right: 10%;
+    }
+
+    .appIcon{
+        width: 70%;
+    }
+
+
+    /* ================= Contato ================= */
+
+    .linkContato{
+        font-size: 2rem !important;
+    }
+
+    .tituloContato{
+        font-size: 1.5rem !important;
+    }
+
+    .input1, .input2{
+        width: 100% !important;
+    }
+
+    .msgResult{
+        font-size: 0.9rem !important;
+    }
+
+    .inputSend{
+        padding: 2%;
+    }
+
+    /* ================= Para voce e negocios ================= */
+
+    .imgAlvo{
+        width: 60%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* ================= Valores ================= */
+
+    .imgValores{
+        width: 25%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    /* ================= Blog ================= */
+
+    .imgPostPrincipal{
+        height: 50vw; 
+        margin-left: 4%;
+    }
+
+    .tituloPostPrincipal{
+        font-size: 1.2rem !important;
+    }
+
+    .tituloPostSecundario{
+        font-size: 0.9rem !important; 
+    }
+
+    .textoArtigo{
+        font-size: 0.9rem !important;
+    }
+
+    /* ================= Admin ================= */
+
+    #loginAdmin{
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+
+    .tableAdmin{
+        font-size: 0.5rem !important;
+    }
+
+    .formReturn{
+        font-size: 1rem !important;
+    }
+    
+}
+
+
+/*========== Menu em outras quebras ==========*/
+
+@media screen and (max-width: 1260px) {
+    .navbar-brand img{
+        width: 3rem !important;
+    }
+
+    .nav-link{
+        font-size: 0.9rem !important;
+    }
+
+    .imgApp{
+        margin-left: 1rem !important;
+        width: 5rem !important;
+    }
+}
